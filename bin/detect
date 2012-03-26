@@ -6,3 +6,4 @@ if [ -f $1/package.json ]; then
 else
   echo "no" && exit 1
 fi
+echo "PhantomJS"
