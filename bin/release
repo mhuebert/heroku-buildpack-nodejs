@@ -7,6 +7,7 @@
 cat <<EOF
 ---
 config_vars:
-  PATH: bin:node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/app/bin
+  PATH: bin:node_modules/.bin:/usr/local/bin:/usr/bin:/bin
   DISPLAY: localhost:1
+  console: bin/fakesu
 EOF

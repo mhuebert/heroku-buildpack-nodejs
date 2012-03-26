@@ -6,6 +6,8 @@ CACHE_DIR=$2
 
 
 
+# fail fast
+set -e
 
 # PHANTOM JS
 
@@ -43,8 +45,6 @@ chmod 755 $BUILD_DIR/bin/phantomexec.sh
 
 
 
-# fail fast
-set -e
 
 # debug
 # set -x
