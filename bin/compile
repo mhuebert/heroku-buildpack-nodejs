@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+BUILD_DIR=$1
+CACHE_DIR=$2
 
 
 
@@ -55,8 +56,7 @@ SCONS_VERSION="1.2.0"
 S3_BUCKET="heroku-buildpack-nodejs"
 
 # parse and derive params
-BUILD_DIR=$1
-CACHE_DIR=$2
+
 LP_DIR=`cd $(dirname $0); cd ..; pwd`
 
 function error() {
